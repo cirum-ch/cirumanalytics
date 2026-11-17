@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>cirum – ESG Data Analytics</title>
+  <meta name="description" content="cirum’s platform for ESG data analytics is taking shape. In the meantime, visit cirum.ch.">
+  <meta name="theme-color" content="#F0EAE0">
+  <meta name="color-scheme" content="light">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://cirumanalytics.com/">
+  <meta property="og:title" content="cirum – ESG Data Analytics">
+  <meta property="og:description" content="cirum’s platform for ESG data analytics is taking shape. In the meantime, visit cirum.ch.">
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='25.488720 27.458333 49.022561 49.022561'%3E%3Cpath d='M38.169106 33.725610L50 24.852439L61.830894 33.725610 M38.169106 44.077642L50 35.204472L61.830894 44.077642 M38.169106 54.429675L50 45.556504L61.830894 54.429675 M50 35.204472V67' transform='translate(0 6.980894)' fill='none' stroke='%231A2C3A' stroke-width='3.0' stroke-linecap='butt' stroke-linejoin='miter'/%3E%3C/svg%3E">
+
+  <style>
+    :root {
+      --navy: #1A2C3A;
+      --cream: #F0EAE0;
+      --teal: #0D7A6F;
+      --slate: #596873;
+      --warm-white: #FBFAF7;
+      --font: "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body { height: 100%; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      background: var(--cream);
+      color: var(--navy);
+      font-family: var(--font);
+      font-weight: 400;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+
+    main {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 64px 24px 32px;
+    }
+
+    .content {
+      max-width: 600px;
+      text-align: center;
+    }
+
+    .logo {
+      display: block;
+      width: 104px;
+      height: auto;
+      margin: 0 auto 56px;
+    }
+
+    .eyebrow {
+      margin: 0;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--teal);
+    }
+
+    .rule {
+      width: 40px;
+      height: 1px;
+      margin: 20px auto 28px;
+      border: 0;
+      background: var(--teal);
+    }
+
+    h1 {
+      margin: 0 0 20px;
+      font-size: clamp(28px, 4.6vw, 42px);
+      font-weight: 350; /* Segoe UI Semilight */
+      line-height: 1.2;
+      letter-spacing: -0.005em;
+    }
+
+    .lead {
+      margin: 0 auto 40px;
+      max-width: 480px;
+      font-size: 18px;
+      line-height: 1.6;
+      color: var(--slate);
+    }
+
+    .button {
+      display: inline-block;
+      padding: 14px 28px;
+      font-size: 15px;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      text-decoration: none;
+      color: var(--warm-white);
+      background: var(--navy);
+      border-radius: 2px;
+      transition: background-color 0.2s ease;
+    }
+
+    .button:hover,
+    .button:focus-visible {
+      background: var(--teal);
+    }
+
+    .button:focus-visible {
+      outline: 2px solid var(--teal);
+      outline-offset: 3px;
+    }
+
+    .arrow {
+      display: inline-block;
+      margin-left: 8px;
+      transition: transform 0.2s ease;
+    }
+
+    .button:hover .arrow { transform: translateX(3px); }
+
+    footer {
+      padding: 24px;
+      text-align: center;
+      font-size: 13px;
+      color: var(--slate);
+    }
+
+    footer a {
+      color: var(--slate);
+      text-decoration: none;
+    }
+
+    footer a:hover,
+    footer a:focus-visible {
+      color: var(--navy);
+      text-decoration: underline;
+    }
+
+    .sep {
+      margin: 0 10px;
+      opacity: 0.6;
+    }
+
+    @media (max-width: 480px) {
+      .logo { width: 88px; margin-bottom: 44px; }
+      .lead { font-size: 17px; }
+      .sep { margin: 0 6px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="content">
+      <svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="12.78 27.520833 76.131 77.807167" role="img" aria-label="cirum">
+        <title>cirum</title>
+        <path d="M38.169106 33.725610L50 24.852439L61.830894 33.725610 M38.169106 44.077642L50 35.204472L61.830894 44.077642 M38.169106 54.429675L50 45.556504L61.830894 54.429675 M50 35.204472V67" transform="translate(0 6.980894)" fill="none" stroke="#1A2C3A" stroke-width="2.1" stroke-linecap="butt" stroke-linejoin="miter"/>
+        <path d="M45.106 107.357 C44.031 108.005 42.755 108.328 41.278 108.328 C39.282 108.328 37.671 107.679 36.445 106.38 C35.219 105.081 34.606 103.397 34.606 101.328 C34.606 99.022 35.267 97.17 36.589 95.771 C37.91 94.371 39.674 93.672 41.88 93.672 C43.11 93.672 44.195 93.9 45.134 94.355 L45.134 96.652 C44.095 95.923 42.983 95.559 41.798 95.559 C40.367 95.559 39.193 96.071 38.277 97.097 C37.361 98.122 36.903 99.469 36.903 101.137 C36.903 102.777 37.334 104.072 38.195 105.02 C39.057 105.967 40.212 106.441 41.661 106.441 C42.882 106.441 44.031 106.036 45.106 105.225 Z M50.646 90.445 C50.244 90.445 49.903 90.309 49.62 90.035 C49.338 89.762 49.196 89.415 49.196 88.996 C49.196 88.577 49.338 88.228 49.62 87.95 C49.903 87.672 50.244 87.533 50.646 87.533 C51.056 87.533 51.404 87.672 51.691 87.95 C51.979 88.228 52.122 88.577 52.122 88.996 C52.122 89.397 51.979 89.739 51.691 90.021 C51.404 90.304 51.056 90.445 50.646 90.445 Z M51.739 108 L49.497 108 L49.497 94 L51.739 94 Z M64.579 96.27 C64.187 95.969 63.622 95.818 62.884 95.818 C61.927 95.818 61.127 96.27 60.484 97.172 C59.842 98.074 59.521 99.305 59.521 100.863 L59.521 108 L57.278 108 L57.278 94 L59.521 94 L59.521 96.885 L59.575 96.885 C59.894 95.9 60.382 95.132 61.038 94.581 C61.694 94.03 62.428 93.754 63.239 93.754 C63.823 93.754 64.269 93.818 64.579 93.945 Z M79.333 108 L77.091 108 L77.091 105.785 L77.036 105.785 C76.106 107.48 74.666 108.328 72.716 108.328 C69.38 108.328 67.712 106.341 67.712 102.367 L67.712 94 L69.94 94 L69.94 102.012 C69.94 104.965 71.071 106.441 73.331 106.441 C74.425 106.441 75.325 106.038 76.031 105.231 C76.738 104.425 77.091 103.37 77.091 102.066 L77.091 94 L79.333 94 Z M104.737 108 L102.495 108 L102.495 99.961 C102.495 98.411 102.256 97.29 101.777 96.598 C101.299 95.905 100.494 95.559 99.364 95.559 C98.407 95.559 97.594 95.996 96.924 96.871 C96.254 97.746 95.919 98.794 95.919 100.016 L95.919 108 L93.677 108 L93.677 99.688 C93.677 96.935 92.615 95.559 90.491 95.559 C89.507 95.559 88.696 95.971 88.058 96.796 C87.42 97.621 87.101 98.694 87.101 100.016 L87.101 108 L84.858 108 L84.858 94 L87.101 94 L87.101 96.215 L87.155 96.215 C88.149 94.52 89.598 93.672 91.503 93.672 C92.46 93.672 93.294 93.938 94.005 94.472 C94.716 95.005 95.203 95.704 95.468 96.57 C96.507 94.638 98.056 93.672 100.116 93.672 C103.197 93.672 104.737 95.572 104.737 99.373 Z" transform="translate(-18.826 -6)" fill="#1A2C3A" fill-rule="evenodd"/>
+      </svg>
+
+      <p class="eyebrow">ESG Data Analytics</p>
+      <hr class="rule">
+      <h1>Our ESG data analytics platform is taking shape.</h1>
+      <p class="lead">This is where cirum’s software for ESG data analytics will live. Until it launches, you’ll find us and our advisory work at cirum.ch.</p>
+      <a class="button" href="https://cirum.ch/">Visit cirum.ch<span class="arrow" aria-hidden="true">→</span></a>
+    </div>
+  </main>
+
+  <footer>
+    <span>© 2026 cirum GmbH</span><span class="sep" aria-hidden="true">·</span><a href="https://cirum.ch/legal">Legal notice</a><span class="sep" aria-hidden="true">·</span><a href="https://cirum.ch/privacy">Privacy policy</a>
+  </footer>
+</body>
+</html>
